@@ -1,0 +1,56 @@
+.signup {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 15px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin-top: 24px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+
+  &:hover {
+    border-color: var(--accent-border);
+  }
+ 
+}
+
+.btn {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin: 0 8px;
+
+  &:hover {
+    border-color: var(--accent-border);
+  }
+}
+
+.btn1 {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin: 18px;
+
+  &:hover {
+    border-color: var(--accent-border);
+  }
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
